@@ -139,7 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ListaDobleCircular.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="Renta de activos.cpp" />
+    <ClCompile Include="Transaccion.cpp" />
+    <ClCompile Include="Usuario.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListaDobleCircular.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Transaccion.h" />
+    <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
