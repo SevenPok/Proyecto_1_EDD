@@ -1,0 +1,15 @@
+﻿  Activo.cpp
+  ArbolAVL.cpp
+  ListaDoble.cpp
+  Matriz.cpp
+  NodeTree.cpp
+  Nodo.cpp
+  NodoArbol.cpp
+  NodoMatriz.cpp
+  Proyecto 1.cpp
+  Transaccion.cpp
+  Tree.cpp
+D:\SevenPok\Documents\Usac\Estructuras de datos\Proyectos\Proyecto 1\Tree.cpp(312,14): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Usuario.cpp
+  Generando código...
+  Proyecto 1.vcxproj -> D:\SevenPok\Documents\Usac\Estructuras de datos\Proyectos\Proyecto 1\Debug\Proyecto 1.exe

@@ -1,0 +1,11 @@
+﻿  ListaDoble.cpp
+  Matriz.cpp
+  Nodo.cpp
+  NodoMatriz.cpp
+  Proyecto 1.cpp
+  Transaccion.cpp
+  Tree.cpp
+D:\Documents\GitHub\Proyecto_1_EDD\Proyecto 1\Tree.cpp(312,14): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Usuario.cpp
+  Generando código...
+  Proyecto 1.vcxproj -> D:\Documents\GitHub\Proyecto_1_EDD\Proyecto 1\x64\Debug\Proyecto 1.exe
