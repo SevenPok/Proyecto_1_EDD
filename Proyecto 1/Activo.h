@@ -17,5 +17,6 @@ public:
 	}
 
 	string toString();
+	string graficar();
 };
 

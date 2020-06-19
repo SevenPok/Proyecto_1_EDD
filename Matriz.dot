@@ -1,0 +1,17 @@
+digraph G {
+node [shape=box];
+Admin[label="Admin"]
+Admin->Guate
+Guate->Admin
+Admin->wall
+wall->Admin
+Guate[label="Guate"]
+Guate->SevenPokGuatewall
+SevenPokGuatewall->Guate
+{rank=same;Admin;Guate;}
+wall[label="wall"]
+wall->SevenPokGuatewall
+SevenPokGuatewall->wall
+SevenPokGuatewall[label="SevenPok"]
+{rank=same;wall;SevenPokGuatewall;}
+}

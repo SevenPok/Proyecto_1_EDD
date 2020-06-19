@@ -1,0 +1,14 @@
+digraph G {
+Xe49lLs1a83v6HM[label="ID: Xe49lLs1a83v6HM"+"\nActivo: CaA0l0wuin0rcLS"+"\nUsuario: SevenPok"+"\nDepartamento: Guate"+"\nEmpresa: wall"+"\nFecha: 21"+"\nTiempo: 12"];
+X0x2Fx9lxi1hDU4[label="ID: X0x2Fx9lxi1hDU4"+"\nActivo: O6RV8lJSOWMq71u"+"\nUsuario: SevenPok"+"\nDepartamento: Guate"+"\nEmpresa: wall"+"\nFecha: "+"\nTiempo: 8"];
+NChx84k7p05knu3[label="ID: NChx84k7p05knu3"+"\nActivo: ITI4AId1UJFq100"+"\nUsuario: SevenPok"+"\nDepartamento: Guate"+"\nEmpresa: wall"+"\nFecha: "+"\nTiempo: 52"];
+HGWWjirhfooEuuE[label="ID: HGWWjirhfooEuuE"+"\nActivo: P9t8vY27k8aiC96"+"\nUsuario: SevenPok"+"\nDepartamento: Guate"+"\nEmpresa: wall"+"\nFecha: 22"+"\nTiempo: 55"];
+Xe49lLs1a83v6HM->X0x2Fx9lxi1hDU4
+Xe49lLs1a83v6HM->HGWWjirhfooEuuE
+X0x2Fx9lxi1hDU4->NChx84k7p05knu3
+X0x2Fx9lxi1hDU4->Xe49lLs1a83v6HM
+NChx84k7p05knu3->HGWWjirhfooEuuE
+NChx84k7p05knu3->X0x2Fx9lxi1hDU4
+HGWWjirhfooEuuE->Xe49lLs1a83v6HM
+HGWWjirhfooEuuE->NChx84k7p05knu3
+}

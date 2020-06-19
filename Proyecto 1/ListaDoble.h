@@ -1,6 +1,8 @@
 #pragma once
 #include "Nodo.h"
 #include "Transaccion.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 using namespace std;
 class ListaDoble
@@ -22,5 +24,9 @@ public:
 	Nodo* search(string value);
 	void remove(string value);
 	void show();
+	void ordenar();
+	void ordenar2();
+	void graficar();
+	void usuario(Usuario* usuario);
 };
 

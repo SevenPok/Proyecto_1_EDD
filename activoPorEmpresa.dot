@@ -1,0 +1,6 @@
+digraph G {
+Microsfot[label="Microsfot"]
+SevenPokGuatemalaMicrosfot[label="SevenPok"]
+SevenPokGuatemalaMicrosfot->SevenPokGuatemalaMicrosfot_316jvoH57B6o6Hi
+SevenPokGuatemalaMicrosfot_316jvoH57B6o6Hi[label="ID: 316jvoH57B6o6Hi"+"\nNombre: ACtivo familiar"+"\nDescripcion: familiar"+"\nDiponibildad: No disponible"]
+}

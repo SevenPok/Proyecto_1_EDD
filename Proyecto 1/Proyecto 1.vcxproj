@@ -141,8 +141,10 @@
   <ItemGroup>
     <ClCompile Include="Activo.cpp" />
     <ClCompile Include="ArbolAVL.cpp" />
+    <ClCompile Include="Graphviz.cpp" />
     <ClCompile Include="ListaDoble.cpp" />
     <ClCompile Include="Matriz.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="NodeTree.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="NodoArbol.cpp" />
@@ -155,8 +157,10 @@
   <ItemGroup>
     <ClInclude Include="Activo.h" />
     <ClInclude Include="ArbolAVL.h" />
+    <ClInclude Include="Graphviz.h" />
     <ClInclude Include="ListaDoble.h" />
     <ClInclude Include="Matriz.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="NodeTree.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="NodoArbol.h" />

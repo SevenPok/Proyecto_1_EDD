@@ -1,0 +1,11 @@
+digraph G {
+Guatemala[label="Guatemala"]
+SevenPokGuatemalaMicrosfot[label="SevenPok"]
+SevenPokGuatemalaMicrosfot->SevenPokGuatemalaMicrosfot_4K582w4hL3QEEig
+SevenPokGuatemalaMicrosfot_316jvoH57B6o6Hi[label="ID: 316jvoH57B6o6Hi"+"\nNombre: ACtivo familiar"+"\nDescripcion: familiar"+"\nDiponibildad: No disponible"]
+SevenPokGuatemalaMicrosfot_4K582w4hL3QEEig[label="ID: 4K582w4hL3QEEig"+"\nNombre: Activo finaciero"+"\nDescripcion: asdadas"+"\nDiponibildad: No disponible"]
+SevenPokGuatemalaMicrosfot_4K582w4hL3QEEig->SevenPokGuatemalaMicrosfot_316jvoH57B6o6Hi
+SevenPokGuatemalaMicrosfot_4K582w4hL3QEEig->SevenPokGuatemalaMicrosfot_6F9Wl13Uz52JJry
+SevenPokGuatemalaMicrosfot_6F9Wl13Uz52JJry[label="ID: 6F9Wl13Uz52JJry"+"\nNombre: Activo escolar"+"\nDescripcion: escolar"+"\nDiponibildad: No disponible"]
+JoselitoGuatemalaMicrosfot[label="Joselito"]
+}

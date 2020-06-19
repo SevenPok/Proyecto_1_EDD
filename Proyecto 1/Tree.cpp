@@ -1,6 +1,10 @@
 #include "Tree.h"
 #include <iostream>
 #include <algorithm> 
+#include <stdlib.h>
+#include <string.h>
+#include <fstream>
+
 using namespace std;
 
 bool Tree::isEmpty()
@@ -407,3 +411,44 @@ NodeTree* Tree::getNode(NodeTree* node, string data)
         return node;
     }
 }
+
+void Tree::graficar(string usuario)
+{
+    file.open("D:\\Documents\\GitHub\\Proyecto_1_EDD\\Arbol.dot", ios::out);
+    if (file.fail()) {
+        return;
+    }
+    else
+    {
+        file << "digraph G {\n";
+        file << usuario + "->" + root->value->graficar() + "\n";
+        inOrden2(root);
+        file << "}";
+    }
+    file.close();
+    system("dot.exe -Tpng D:\\Documents\\GitHub\\Proyecto_1_EDD\\Arbol.dot -o D:\\Documents\\GitHub\\Proyecto_1_EDD\\Arbol.png");
+    cout << "Se genero reporte\n";
+}
+
+void Tree::inOrden2(NodeTree* node)
+{
+    if (node != nullptr) {
+        
+        inOrden2(node->left);
+        file << node->value->graficar();
+        if (node->left != nullptr) file << node->value->graficar() + "->" + node->left->value->graficar();
+        if (node->right != nullptr) file << node->value->graficar() + "->" + node->right->value->graficar();
+        inOrden2(node->right);
+
+        /*if (node->left != nullptr) cadena += node->value->id + "->" + node->left->value->id + "\n";
+        if (node->right != nullptr) cadena += node->value->id + "->" + node->right->value->id + "\n";*/
+ 
+        
+    }
+    
+}
+
+
+
+
+

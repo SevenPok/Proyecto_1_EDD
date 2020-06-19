@@ -2,5 +2,6 @@
 
 string Transaccion::toString()
 {
-    return "ID: "+id+"\nID Activo: "+activo->id+"\nUsuario: "+usuario->nickName+"\nFecha: "+fecha+"\nTiempo: "+tiempo;
+    return "\"ID: " + id + "\"+" + "\"\\nActivo: " + activo->id + "\"+" + "\"\\nUsuario: " + usuario->nickName + "\"+" + "\"\\nDepartamento: " + usuario->departamento + "\"+"
+        + "\"\\nEmpresa: " + usuario->empresa + "\"+" + "\"\\nFecha: " + fecha + "\"+" + "\"\\nTiempo: " + tiempo + "\"";
 }

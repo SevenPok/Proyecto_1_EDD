@@ -1,0 +1,5 @@
+digraph G {
+z3G2KQsHgiq80OI[label="ID: z3G2KQsHgiq80OI"+"\nActivo: zbvF1e2z1Ndl6we"+"\nUsuario: Seven"+"\nDepartamento: Guate"+"\nEmpresa: walmart"+"\nFecha: 23"+"\nTiempo: 12"];
+zF221RvKilBD015[label="ID: zF221RvKilBD015"+"\nActivo: z94DR118eyJ6Uhv"+"\nUsuario: Seven"+"\nDepartamento: Guate"+"\nEmpresa: walmart"+"\nFecha: 21"+"\nTiempo: 12"];
+z3G2KQsHgiq80OI->zF221RvKilBD015
+}
